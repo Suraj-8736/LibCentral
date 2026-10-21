@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="pybg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b"/>
+      <stop offset="50%" stop-color="#1c2541"/>
+      <stop offset="100%" stop-color="#0b132b"/>
+    </linearGradient>
+    <linearGradient id="pyblue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="pyyellow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#pybg)"/>
+  <rect width="20" height="800" fill="black" opacity="0.3"/>
+
+  <rect x="0" y="0" width="600" height="55" fill="#0284c7"/>
+  <text x="300" y="35" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">OXFORD HIGHER EDUCATION • COMPUTER SCIENCE</text>
+
+  <text x="300" y="135" font-family="sans-serif" font-size="36" font-weight="900" fill="#fde047" text-anchor="middle" letter-spacing="1">PYTHON PROGRAMMING</text>
+  <text x="300" y="175" font-family="sans-serif" font-size="20" font-weight="bold" fill="#38bdf8" text-anchor="middle">Using Problem Solving Approach</text>
+  <text x="300" y="205" font-family="sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">Second Edition • Covers Python 3.12+ &amp; Data Structures</text>
+
+  <!-- Author -->
+  <rect x="140" y="230" width="320" height="44" rx="22" fill="url(#pyblue)"/>
+  <text x="300" y="258" font-family="sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">REEMA THAREJA</text>
+
+  <!-- Python Code / Terminal Illustration -->
+  <g transform="translate(60, 300)">
+    <rect x="0" y="0" width="480" height="340" rx="16" fill="#020617" stroke="#334155" stroke-width="2"/>
+    
+    <!-- Window Bar -->
+    <rect x="0" y="0" width="480" height="35" rx="16" fill="#1e293b"/>
+    <circle cx="25" cy="17" r="6" fill="#ef4444"/>
+    <circle cx="45" cy="17" r="6" fill="#eab308"/>
+    <circle cx="65" cy="17" r="6" fill="#22c55e"/>
+    <text x="240" y="22" font-family="monospace" font-size="12" fill="#94a3b8" text-anchor="middle">main.py - Python 3</text>
+
+    <!-- Code text -->
+    <text x="25" y="70" font-family="monospace" font-size="14" fill="#f43f5e">import</text>
+    <text x="80" y="70" font-family="monospace" font-size="14" fill="#38bdf8">numpy</text>
+    <text x="130" y="70" font-family="monospace" font-size="14" fill="#f43f5e">as</text>
+    <text x="155" y="70" font-family="monospace" font-size="14" fill="#e2e8f0">np</text>
+
+    <text x="25" y="105" font-family="monospace" font-size="14" fill="#a855f7">class</text>
+    <text x="75" y="105" font-family="monospace" font-size="14" fill="#fde047">DataAnalyzer</text>
+    <text x="180" y="105" font-family="monospace" font-size="14" fill="#e2e8f0">:</text>
+
+    <text x="55" y="140" font-family="monospace" font-size="14" fill="#38bdf8">def</text>
+    <text x="90" y="140" font-family="monospace" font-size="14" fill="#22c55e">process_records</text>
+    <text x="220" y="140" font-family="monospace" font-size="14" fill="#e2e8f0">(self, data):</text>
+
+    <text x="85" y="175" font-family="monospace" font-size="14" fill="#94a3b8"># Transform &amp; analyze dataset</text>
+    <text x="85" y="205" font-family="monospace" font-size="14" fill="#e2e8f0">return [x * 2 for x in data if x > 0]</text>
+
+    <text x="25" y="250" font-family="monospace" font-size="14" fill="#e2e8f0">records = np.array([12, 45, 78, 90])</text>
+    <text x="25" y="285" font-family="monospace" font-size="14" fill="#38bdf8">print</text>
+    <text x="75" y="285" font-family="monospace" font-size="14" fill="#e2e8f0">(</text>
+    <text x="85" y="285" font-family="monospace" font-size="14" fill="#a3e635">f"Analysis: {records.mean()}"</text>
+    <text x="320" y="285" font-family="monospace" font-size="14" fill="#e2e8f0">)</text>
+
+    <rect x="25" y="305" width="430" height="20" fill="rgba(56,189,248,0.1)" rx="4"/>
+    <text x="35" y="320" font-family="monospace" font-size="11" fill="#38bdf8">>>> Output: Analysis: 56.25 [Success]</text>
+  </g>
+
+  <rect x="40" y="675" width="520" height="75" rx="14" fill="#0284c7"/>
+  <text x="300" y="708" font-family="sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">OXFORD UNIVERSITY PRESS</text>
+  <text x="300" y="732" font-family="sans-serif" font-size="12" fill="#e0f2fe" text-anchor="middle">OOPs • File Handling • NumPy • Pandas • Matplotlib • GUI (Tkinter)</text>
+</svg>

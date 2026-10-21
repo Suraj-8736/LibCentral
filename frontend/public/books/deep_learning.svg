@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+    <defs>
+      <linearGradient id="dlbg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#09090b"/><stop offset="50%" stop-color="#18181b"/><stop offset="100%" stop-color="#27272a"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="800" fill="url(#dlbg)"/>
+    <rect width="20" height="800" fill="black" opacity="0.3"/>
+    <rect x="0" y="0" width="600" height="55" fill="#7c3aed"/>
+    <text x="300" y="35" font-family="sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">MIT PRESS • ADAPTIVE COMPUTATION</text>
+
+    <text x="300" y="135" font-family="sans-serif" font-size="46" font-weight="900" fill="#a855f7" text-anchor="middle" letter-spacing="3">DEEP LEARNING</text>
+    <text x="300" y="175" font-family="sans-serif" font-size="18" font-weight="bold" fill="#c084fc" text-anchor="middle">Adaptive Computation and Machine Learning Series</text>
+    <text x="300" y="205" font-family="sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">The Definitive Deep Learning Reference Book</text>
+
+    <rect x="60" y="230" width="480" height="50" rx="16" fill="rgba(124,58,237,0.2)" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="300" y="262" font-family="sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle">IAN GOODFELLOW • YOSHUA BENGIO • AARON COURVILLE</text>
+
+    <g transform="translate(80, 310)">
+      <rect x="0" y="0" width="440" height="325" rx="16" fill="#09090b" stroke="#a855f7" stroke-width="1.5"/>
+      <!-- Deep Neural Net Layers -->
+      <g transform="translate(40, 20)">
+        <!-- Input Layer -->
+        <circle cx="30" cy="40" r="12" fill="#3b82f6"/><circle cx="30" cy="80" r="12" fill="#3b82f6"/><circle cx="30" cy="120" r="12" fill="#3b82f6"/><circle cx="30" cy="160" r="12" fill="#3b82f6"/>
+        <!-- Hidden 1 -->
+        <circle cx="140" cy="30" r="12" fill="#a855f7"/><circle cx="140" cy="70" r="12" fill="#a855f7"/><circle cx="140" cy="110" r="12" fill="#a855f7"/><circle cx="140" cy="150" r="12" fill="#a855f7"/><circle cx="140" cy="180" r="12" fill="#a855f7"/>
+        <!-- Hidden 2 -->
+        <circle cx="240" cy="50" r="12" fill="#ec4899"/><circle cx="240" cy="90" r="12" fill="#ec4899"/><circle cx="240" cy="130" r="12" fill="#ec4899"/><circle cx="240" cy="170" r="12" fill="#ec4899"/>
+        <!-- Output -->
+        <circle cx="330" cy="80" r="14" fill="#10b981"/><circle cx="330" cy="130" r="14" fill="#10b981"/>
+      </g>
+
+      <rect x="20" y="225" width="400" height="85" rx="10" fill="rgba(255,255,255,0.05)"/>
+      <text x="220" y="255" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c084fc" text-anchor="middle">Feedforward Networks • Backpropagation • Convolutional (CNN)</text>
+      <text x="220" y="285" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">Recurrent Nets (RNN / LSTM) • Autoencoders • GANs &amp; Transformers</text>
+    </g>
+
+    <rect x="40" y="670" width="520" height="75" rx="14" fill="#7c3aed"/>
+    <text x="300" y="703" font-family="sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">THE MIT PRESS</text>
+    <text x="300" y="728" font-family="sans-serif" font-size="12" fill="#ede9fe" text-anchor="middle">Global Benchmark for Deep Learning &amp; AI Research</text>
+  </svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="dtbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="45%" stop-color="#3b0764"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="magentaBanner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c026d3"/>
+      <stop offset="50%" stop-color="#db2777"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <linearGradient id="flowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="25%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="75%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Cover Background -->
+  <rect width="600" height="800" fill="url(#dtbg)"/>
+  
+  <!-- Spine Texture -->
+  <rect width="22" height="800" fill="#000000" opacity="0.35"/>
+  <line x1="22" y1="0" x2="22" y2="800" stroke="#c084fc" stroke-width="1" opacity="0.4"/>
+
+  <!-- Top Publisher Banner -->
+  <rect x="0" y="0" width="600" height="54" fill="url(#magentaBanner)"/>
+  <text x="310" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2.5">THE MIT PRESS • CAMBRIDGE, MA</text>
+
+  <!-- Year / Semester Tag -->
+  <g transform="translate(420, 70)">
+    <rect x="0" y="0" width="140" height="28" rx="14" fill="#701a75" stroke="#f472b6" stroke-width="1"/>
+    <text x="70" y="19" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">4TH YEAR CORE</text>
+  </g>
+
+  <!-- Main Title Block -->
+  <text x="310" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">DESIGN THINKING (DT)</text>
+  <text x="310" y="168" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="bold" fill="#f472b6" text-anchor="middle" letter-spacing="1">HUMAN-CENTERED INNOVATION &amp; CREATIVITY</text>
+  <text x="310" y="198" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#fbcfe8" text-anchor="middle">Problem Framing, Creative Architecture &amp; User Research</text>
+
+  <!-- Authors Card -->
+  <rect x="70" y="222" width="480" height="58" rx="16" fill="rgba(15, 23, 42, 0.85)" stroke="#e879f9" stroke-width="1.8" filter="url(#shadow)"/>
+  <text x="310" y="258" font-family="system-ui, sans-serif" font-size="22" font-weight="900" fill="#fde047" text-anchor="middle" letter-spacing="1.5">PETER G. ROWE</text>
+
+  <!-- Central Graphic Showcase (5-Stage Design Thinking Framework) -->
+  <g transform="translate(60, 302)">
+    <rect x="0" y="0" width="500" height="345" rx="18" fill="rgba(15, 23, 42, 0.9)" stroke="#c026d3" stroke-width="1.5"/>
+
+    <!-- 5 Process Stages -->
+    <g transform="translate(15, 25)">
+      <!-- Stage 1: Empathize -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="86" height="65" rx="10" fill="#0284c7" stroke="#38bdf8" stroke-width="1.5"/>
+        <circle cx="43" cy="24" r="12" fill="#bae6fd"/>
+        <text x="43" y="28" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#0369a1" text-anchor="middle">1</text>
+        <text x="43" y="52" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">EMPATHIZE</text>
+      </g>
+
+      <!-- Stage 2: Define -->
+      <g transform="translate(95, 0)">
+        <rect x="0" y="0" width="86" height="65" rx="10" fill="#7c3aed" stroke="#a78bfa" stroke-width="1.5"/>
+        <circle cx="43" cy="24" r="12" fill="#ddd6fe"/>
+        <text x="43" y="28" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#5b21b6" text-anchor="middle">2</text>
+        <text x="43" y="52" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">DEFINE</text>
+      </g>
+
+      <!-- Stage 3: Ideate -->
+      <g transform="translate(190, 0)">
+        <rect x="0" y="0" width="86" height="65" rx="10" fill="#c026d3" stroke="#f472b6" stroke-width="1.5"/>
+        <circle cx="43" cy="24" r="12" fill="#fce7f3"/>
+        <text x="43" y="28" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#86198f" text-anchor="middle">3</text>
+        <text x="43" y="52" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">IDEATE</text>
+      </g>
+
+      <!-- Stage 4: Prototype -->
+      <g transform="translate(285, 0)">
+        <rect x="0" y="0" width="86" height="65" rx="10" fill="#d97706" stroke="#fbbf24" stroke-width="1.5"/>
+        <circle cx="43" cy="24" r="12" fill="#fef3c7"/>
+        <text x="43" y="28" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#92400e" text-anchor="middle">4</text>
+        <text x="43" y="52" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">PROTOTYPE</text>
+      </g>
+
+      <!-- Stage 5: Test -->
+      <g transform="translate(380, 0)">
+        <rect x="0" y="0" width="86" height="65" rx="10" fill="#16a34a" stroke="#4ade80" stroke-width="1.5"/>
+        <circle cx="43" cy="24" r="12" fill="#dcfce7"/>
+        <text x="43" y="28" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#166534" text-anchor="middle">5</text>
+        <text x="43" y="52" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">TEST</text>
+      </g>
+    </g>
+
+    <!-- Feedback Iteration Wave -->
+    <path d="M 435 105 C 435 125 65 125 65 105" fill="none" stroke="url(#flowGradient)" stroke-width="3" stroke-dasharray="6 4"/>
+    <polygon points="60,105 70,98 70,112" fill="#38bdf8"/>
+    <text x="250" y="125" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#fde047" text-anchor="middle">Continuous Feedback &amp; Rapid Iteration Loop</text>
+
+    <!-- Key Topics Card -->
+    <rect x="25" y="145" width="450" height="180" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(244,114,182,0.2)"/>
+    <text x="250" y="175" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">Human-Centered Design (HCD) • User Persona &amp; Empathy Mapping</text>
+    <text x="250" y="205" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#f472b6" text-anchor="middle">Point of View (POV) Framing • 'How Might We' (HMW) Problem Statements</text>
+    <text x="250" y="235" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#38bdf8" text-anchor="middle">Brainstorming, Mind-Mapping &amp; Lateral Thinking Methodologies</text>
+    <text x="250" y="265" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="middle">Low-Fidelity &amp; High-Fidelity Prototyping • Usability Testing &amp; Validation</text>
+    <text x="250" y="295" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#fbcfe8" text-anchor="middle">Design Thinking for Engineering Innovations &amp; Digital Products</text>
+  </g>
+
+  <!-- Bottom Publisher Seal -->
+  <rect x="40" y="670" width="535" height="80" rx="16" fill="url(#magentaBanner)" filter="url(#shadow)"/>
+  <text x="307" y="705" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">THE MIT PRESS</text>
+  <text x="307" y="732" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#fdf2f8" text-anchor="middle">The Foundational Global Authority on Design Thinking by Peter G. Rowe</text>
+</svg>

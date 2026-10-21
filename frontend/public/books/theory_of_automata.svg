@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="tobg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="50%" stop-color="#27272a"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="toaccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#tobg)"/>
+  <rect width="20" height="800" fill="black" opacity="0.3"/>
+
+  <rect x="0" y="0" width="600" height="55" fill="#0284c7"/>
+  <text x="300" y="35" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">McGRAW HILL COMPUTER SCIENCE SERIES</text>
+
+  <text x="300" y="135" font-family="sans-serif" font-size="34" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">THEORY OF AUTOMATA</text>
+  <text x="300" y="175" font-family="sans-serif" font-size="24" font-weight="800" fill="#38bdf8" text-anchor="middle">&amp; FORMAL LANGUAGES</text>
+  <text x="300" y="205" font-family="sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Fourth Edition • Computation &amp; Complexity</text>
+
+  <!-- Author -->
+  <rect x="130" y="230" width="340" height="44" rx="22" fill="url(#toaccent)"/>
+  <text x="300" y="258" font-family="sans-serif" font-size="19" font-weight="900" fill="#ffffff" text-anchor="middle">JOHN C. MARTIN</text>
+
+  <!-- Finite Automata State Machine Diagram -->
+  <g transform="translate(80, 310)">
+    <rect x="0" y="0" width="440" height="320" rx="16" fill="#111827" stroke="#38bdf8" stroke-width="1.5"/>
+    
+    <!-- State q0 -->
+    <circle cx="80" cy="150" r="30" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+    <text x="80" y="156" font-family="sans-serif" font-size="16" font-weight="bold" fill="#38bdf8" text-anchor="middle">q0</text>
+    <!-- Start arrow -->
+    <line x1="20" y1="150" x2="50" y2="150" stroke="#38bdf8" stroke-width="3"/>
+    <polygon points="50,150 40,144 40,156" fill="#38bdf8"/>
+
+    <!-- Transition q0 -> q1 -->
+    <path d="M 105 130 Q 160 80 215 130" fill="none" stroke="#a855f7" stroke-width="3"/>
+    <polygon points="215,130 205,120 205,132" fill="#a855f7"/>
+    <text x="160" y="90" font-family="monospace" font-size="14" font-weight="bold" fill="#c084fc" text-anchor="middle">a</text>
+
+    <!-- State q1 -->
+    <circle cx="220" cy="150" r="30" fill="#1e293b" stroke="#a855f7" stroke-width="3"/>
+    <text x="220" y="156" font-family="sans-serif" font-size="16" font-weight="bold" fill="#a855f7" text-anchor="middle">q1</text>
+
+    <!-- Transition q1 -> q2 -->
+    <line x1="250" y1="150" x2="320" y2="150" stroke="#10b981" stroke-width="3"/>
+    <polygon points="320,150 310,144 310,156" fill="#10b981"/>
+    <text x="285" y="140" font-family="monospace" font-size="14" font-weight="bold" fill="#34d399" text-anchor="middle">b</text>
+
+    <!-- State q2 (Accepting State) -->
+    <circle cx="360" cy="150" r="34" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+    <circle cx="360" cy="150" r="28" fill="#065f46" stroke="#10b981" stroke-width="3"/>
+    <text x="360" y="156" font-family="sans-serif" font-size="16" font-weight="bold" fill="#34d399" text-anchor="middle">q2</text>
+
+    <!-- Self loop on q2 -->
+    <path d="M 360 116 C 330 60 390 60 365 116" fill="none" stroke="#10b981" stroke-width="3"/>
+    <text x="360" y="60" font-family="monospace" font-size="14" font-weight="bold" fill="#34d399" text-anchor="middle">a, b</text>
+
+    <rect x="20" y="220" width="400" height="75" rx="10" fill="rgba(255,255,255,0.05)"/>
+    <text x="220" y="248" font-family="sans-serif" font-size="13" font-weight="bold" fill="#38bdf8" text-anchor="middle">DFA • NFA • Regular Expressions • Context-Free Grammars</text>
+    <text x="220" y="275" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="middle">Pushdown Automata • Turing Machines • Decidability</text>
+  </g>
+
+  <rect x="40" y="670" width="520" height="75" rx="14" fill="#0284c7"/>
+  <text x="300" y="703" font-family="sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">McGRAW HILL EDUCATION</text>
+  <text x="300" y="728" font-family="sans-serif" font-size="12" fill="#e0f2fe" text-anchor="middle">Classic Textbook for Computer Science &amp; Formal Languages</text>
+</svg>

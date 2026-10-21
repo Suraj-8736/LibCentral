@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <!-- Spine shadow -->
+  <rect width="20" height="800" fill="black" opacity="0.25"/>
+  <line x1="22" y1="0" x2="22" y2="800" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  
+  <!-- Publisher Header -->
+  <rect x="0" y="0" width="600" height="60" fill="#d97706"/>
+  <text x="300" y="38" font-family="sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">McGRAW HILL HIGHER EDUCATION</text>
+
+  <!-- Tag -->
+  <rect x="60" y="90" width="480" height="30" rx="15" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="300" y="110" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e9d5ff" text-anchor="middle" letter-spacing="1.5">COMPUTER SCIENCE &amp; ENGINEERING CORE</text>
+
+  <!-- Title -->
+  <text x="300" y="175" font-family="sans-serif" font-size="34" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">DISCRETE STRUCTURES</text>
+  <text x="300" y="215" font-family="sans-serif" font-size="24" font-weight="800" fill="#c084fc" text-anchor="middle">&amp; THEORY OF LOGIC</text>
+  <text x="300" y="245" font-family="sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">Eighth Edition • As per AICTE / University Syllabus</text>
+
+  <!-- Author -->
+  <rect x="120" y="270" width="360" height="46" rx="23" fill="url(#accent)"/>
+  <text x="300" y="299" font-family="sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle">KENNETH H. ROSEN</text>
+
+  <!-- Graph / Logic Illustration -->
+  <g transform="translate(80, 340)">
+    <!-- Graph Theory Grid -->
+    <circle cx="220" cy="150" r="140" fill="none" stroke="rgba(168,85,247,0.15)" stroke-dasharray="6 6"/>
+    <line x1="80" y1="60" x2="220" y2="40" stroke="#a855f7" stroke-width="3"/>
+    <line x1="220" y1="40" x2="360" y2="70" stroke="#a855f7" stroke-width="3"/>
+    <line x1="80" y1="60" x2="140" y2="190" stroke="#ec4899" stroke-width="3"/>
+    <line x1="220" y1="40" x2="220" y2="180" stroke="#06b6d4" stroke-width="3"/>
+    <line x1="360" y1="70" x2="300" y2="200" stroke="#ec4899" stroke-width="3"/>
+    <line x1="140" y1="190" x2="220" y2="180" stroke="#a855f7" stroke-width="3"/>
+    <line x1="220" y1="180" x2="300" y2="200" stroke="#06b6d4" stroke-width="3"/>
+    <line x1="140" y1="190" x2="220" y2="270" stroke="#f59e0b" stroke-width="3"/>
+    <line x1="300" y1="200" x2="220" y2="270" stroke="#f59e0b" stroke-width="3"/>
+
+    <!-- Nodes -->
+    <circle cx="80" cy="60" r="16" fill="#a855f7" stroke="#fff" stroke-width="2"/>
+    <text x="80" y="65" font-family="sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">P</text>
+
+    <circle cx="220" cy="40" r="18" fill="#ec4899" stroke="#fff" stroke-width="2"/>
+    <text x="220" y="46" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">Q</text>
+
+    <circle cx="360" cy="70" r="16" fill="#06b6d4" stroke="#fff" stroke-width="2"/>
+    <text x="360" y="75" font-family="sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">R</text>
+
+    <circle cx="140" cy="190" r="16" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+    <text x="140" y="195" font-family="sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">S</text>
+
+    <circle cx="220" cy="180" r="22" fill="#8b5cf6" stroke="#fff" stroke-width="3"/>
+    <text x="220" y="186" font-family="sans-serif" font-size="13" font-weight="900" fill="#fff" text-anchor="middle">P∧Q</text>
+
+    <circle cx="300" cy="200" r="16" fill="#10b981" stroke="#fff" stroke-width="2"/>
+    <text x="300" y="205" font-family="sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">T</text>
+
+    <circle cx="220" cy="270" r="18" fill="#ef4444" stroke="#fff" stroke-width="2"/>
+    <text x="220" y="276" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">∀x</text>
+  </g>
+
+  <!-- Topics Footer Box -->
+  <rect x="40" y="670" width="520" height="80" rx="16" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="300" y="698" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="middle">Sets • Relations • Propositional Logic • Graph Theory • Combinatorics • Lattices</text>
+  <text x="300" y="728" font-family="sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Comprehensive Academic Reference • Complete Exercise Solutions</text>
+</svg>

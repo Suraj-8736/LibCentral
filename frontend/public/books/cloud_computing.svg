@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="ccbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#082f49"/>
+      <stop offset="45%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="cloudBanner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Cover Background -->
+  <rect width="600" height="800" fill="url(#ccbg)"/>
+  
+  <!-- Spine Texture -->
+  <rect width="22" height="800" fill="#000000" opacity="0.35"/>
+  <line x1="22" y1="0" x2="22" y2="800" stroke="#7dd3fc" stroke-width="1" opacity="0.4"/>
+
+  <!-- Top Publisher Banner -->
+  <rect x="0" y="0" width="600" height="54" fill="url(#cloudBanner)"/>
+  <text x="310" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2.5">MORGAN KAUFMANN / McGRAW HILL</text>
+
+  <!-- Year / Semester Tag -->
+  <g transform="translate(420, 70)">
+    <rect x="0" y="0" width="140" height="28" rx="14" fill="#0369a1" stroke="#38bdf8" stroke-width="1"/>
+    <text x="70" y="19" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">4TH YEAR CORE</text>
+  </g>
+
+  <!-- Main Title Block -->
+  <text x="310" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">CLOUD COMPUTING (CC)</text>
+  <text x="310" y="168" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#7dd3fc" text-anchor="middle" letter-spacing="1.5">MASTERING CLOUD COMPUTING</text>
+  <text x="310" y="198" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#e0f2fe" text-anchor="middle">Virtualization, Distributed Systems, Aneka &amp; Applications</text>
+
+  <!-- Authors Card -->
+  <rect x="70" y="222" width="480" height="58" rx="16" fill="rgba(15, 23, 42, 0.85)" stroke="#38bdf8" stroke-width="1.8" filter="url(#shadow)"/>
+  <text x="310" y="258" font-family="system-ui, sans-serif" font-size="22" font-weight="900" fill="#fde047" text-anchor="middle" letter-spacing="1.5">RAJKUMAR BUYYA</text>
+
+  <!-- Central Graphic Showcase (3D Cloud Tier & Virtualization Architecture) -->
+  <g transform="translate(60, 302)">
+    <rect x="0" y="0" width="500" height="345" rx="18" fill="rgba(15, 23, 42, 0.9)" stroke="#0284c7" stroke-width="1.5"/>
+
+    <!-- Cloud Silhouette Graphic -->
+    <g transform="translate(140, 20)">
+      <path d="M 30 65 A 30 30 0 0 1 70 30 A 45 45 0 0 1 150 35 A 35 35 0 0 1 190 75 A 25 25 0 0 1 175 105 L 25 105 A 20 20 0 0 1 30 65 Z" fill="#0284c7" stroke="#ffffff" stroke-width="2.5"/>
+      <text x="105" y="75" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle">IaaS • PaaS • SaaS</text>
+    </g>
+
+    <!-- Cloud Service Tiers -->
+    <g transform="translate(25, 120)">
+      <rect x="0" y="0" width="140" height="32" rx="8" fill="#0369a1"/><text x="70" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">SaaS (Applications)</text>
+      <rect x="155" y="0" width="140" height="32" rx="8" fill="#0284c7"/><text x="225" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">PaaS (Aneka / App)</text>
+      <rect x="310" y="0" width="140" height="32" rx="8" fill="#0ea5e9"/><text x="380" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#082f49" text-anchor="middle">IaaS (VMs / Storage)</text>
+    </g>
+
+    <!-- Key Topics Card -->
+    <rect x="25" y="165" width="450" height="160" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(56,189,248,0.2)"/>
+    <text x="250" y="195" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">Cloud Service Models (IaaS, PaaS, SaaS) &amp; Deployment (Public, Private, Hybrid)</text>
+    <text x="250" y="225" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#38bdf8" text-anchor="middle">Hardware &amp; OS Virtualization: Hypervisors, KVM, Docker &amp; Kubernetes</text>
+    <text x="250" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#4ade80" text-anchor="middle">Aneka Cloud Application Platform: Architecture, SDK &amp; Thread Programming</text>
+    <text x="250" y="285" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#f472b6" text-anchor="middle">MapReduce Computing • SLA Management • Cloud Security &amp; Storage</text>
+    <text x="250" y="310" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#bae6fd" text-anchor="middle">Prescribed Textbook for Cloud Computing by Dr. Rajkumar Buyya</text>
+  </g>
+
+  <!-- Bottom Publisher Seal -->
+  <rect x="40" y="670" width="535" height="80" rx="16" fill="url(#cloudBanner)" filter="url(#shadow)"/>
+  <text x="307" y="705" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">MORGAN KAUFMANN</text>
+  <text x="307" y="732" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#e0f2fe" text-anchor="middle">Core Prescribed University Reference for Cloud Architecture</text>
+</svg>

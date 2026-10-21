@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="debg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="degreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#debg)"/>
+  <rect width="20" height="800" fill="black" opacity="0.25"/>
+
+  <rect x="0" y="0" width="600" height="55" fill="#059669"/>
+  <text x="300" y="35" font-family="sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">PEARSON EDUCATION</text>
+
+  <text x="300" y="135" font-family="sans-serif" font-size="38" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">DIGITAL ELECTRONICS</text>
+  <text x="300" y="175" font-family="sans-serif" font-size="22" font-weight="bold" fill="#6ee7b7" text-anchor="middle">&amp; LOGIC DESIGN</text>
+  <text x="300" y="205" font-family="sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">Sixth Edition • Verilog HDL &amp; VHDL Included</text>
+
+  <!-- Author -->
+  <rect x="110" y="230" width="380" height="44" rx="22" fill="url(#degreen)"/>
+  <text x="300" y="258" font-family="sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle">M. MORRIS MANO &amp; MICHAEL D. CILETTI</text>
+
+  <!-- Logic Gates & Circuit Diagram -->
+  <g transform="translate(70, 305)">
+    <rect x="0" y="0" width="460" height="340" rx="16" fill="#022c22" stroke="#10b981" stroke-width="1.5"/>
+    
+    <!-- AND Gate -->
+    <g transform="translate(40, 40)">
+      <path d="M 0 0 L 40 0 C 65 0 65 50 40 50 L 0 50 Z" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+      <line x1="-20" y1="15" x2="0" y2="15" stroke="#34d399" stroke-width="2"/>
+      <line x1="-20" y1="35" x2="0" y2="35" stroke="#34d399" stroke-width="2"/>
+      <line x1="65" y1="25" x2="100" y2="25" stroke="#34d399" stroke-width="2"/>
+      <text x="30" y="32" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">AND</text>
+    </g>
+
+    <!-- OR Gate -->
+    <g transform="translate(40, 130)">
+      <path d="M 0 0 Q 20 25 0 50 L 30 50 Q 70 25 30 0 Z" fill="#065f46" stroke="#38bdf8" stroke-width="2"/>
+      <line x1="-20" y1="15" x2="5" y2="15" stroke="#38bdf8" stroke-width="2"/>
+      <line x1="-20" y1="35" x2="5" y2="35" stroke="#38bdf8" stroke-width="2"/>
+      <line x1="50" y1="25" x2="100" y2="25" stroke="#38bdf8" stroke-width="2"/>
+      <text x="25" y="32" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">OR</text>
+    </g>
+
+    <!-- Flip Flop -->
+    <g transform="translate(240, 50)">
+      <rect x="0" y="0" width="130" height="120" rx="8" fill="#047857" stroke="#6ee7b7" stroke-width="2"/>
+      <text x="65" y="30" font-family="sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">J-K FLIP FLOP</text>
+      <text x="20" y="60" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff">J</text>
+      <text x="20" y="85" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff">CLK</text>
+      <text x="20" y="110" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff">K</text>
+      <text x="105" y="60" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff">Q</text>
+      <text x="105" y="110" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff">Q'</text>
+    </g>
+
+    <rect x="20" y="225" width="420" height="85" rx="10" fill="rgba(0,0,0,0.4)"/>
+    <text x="230" y="255" font-family="sans-serif" font-size="13" font-weight="bold" fill="#34d399" text-anchor="middle">Boolean Algebra • K-Maps • Combinational Circuits • Multiplexers</text>
+    <text x="230" y="285" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">Counters • Shift Registers • Memory Units &amp; Programmable Logic</text>
+  </g>
+
+  <rect x="40" y="670" width="520" height="75" rx="14" fill="#059669"/>
+  <text x="300" y="703" font-family="sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">PEARSON EDUCATION</text>
+  <text x="300" y="728" font-family="sans-serif" font-size="12" fill="#a7f3d0" text-anchor="middle">Benchmark Standard for Digital Design &amp; Microprocessor Systems</text>
+</svg>

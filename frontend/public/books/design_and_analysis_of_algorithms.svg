@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="clrsbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="50%" stop-color="#27272a"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="redBanner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b91c1c"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Cover Background -->
+  <rect width="600" height="800" fill="url(#clrsbg)"/>
+  
+  <!-- Spine Texture -->
+  <rect width="22" height="800" fill="#000000" opacity="0.4"/>
+  <line x1="22" y1="0" x2="22" y2="800" stroke="#ef4444" stroke-width="1" opacity="0.4"/>
+
+  <!-- Top Publisher Banner -->
+  <rect x="0" y="0" width="600" height="54" fill="url(#redBanner)"/>
+  <text x="310" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2.5">THE MIT PRESS • CAMBRIDGE, MA</text>
+
+  <!-- Year / Semester Tag -->
+  <g transform="translate(420, 70)">
+    <rect x="0" y="0" width="140" height="28" rx="14" fill="#991b1b" stroke="#f87171" stroke-width="1"/>
+    <text x="70" y="19" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">3RD YEAR CORE</text>
+  </g>
+
+  <!-- Main Title Block -->
+  <text x="310" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">DESIGN &amp; ANALYSIS OF</text>
+  <text x="310" y="168" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="900" fill="#ef4444" text-anchor="middle" letter-spacing="3">ALGORITHMS</text>
+  <text x="310" y="200" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#fca5a5" text-anchor="middle">Introduction to Algorithms (CLRS) • 4th Edition</text>
+
+  <!-- Authors Card -->
+  <rect x="50" y="222" width="520" height="66" rx="16" fill="rgba(220, 38, 38, 0.15)" stroke="#ef4444" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="310" y="248" font-family="system-ui, sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">THOMAS H. CORMEN • CHARLES E. LEISERSON</text>
+  <text x="310" y="272" font-family="system-ui, sans-serif" font-size="14" font-weight="900" fill="#fca5a5" text-anchor="middle">RONALD L. RIVEST • CLIFFORD STEIN</text>
+
+  <!-- Central Graphic Showcase (Algorithm Sorting & Graph Networks) -->
+  <g transform="translate(60, 306)">
+    <rect x="0" y="0" width="500" height="340" rx="18" fill="#111827" stroke="#374151" stroke-width="1.5"/>
+
+    <!-- Array Sorting Bars Visualization -->
+    <g transform="translate(45, 20)">
+      <rect x="0" y="60" width="26" height="110" fill="#3b82f6" rx="4"/>
+      <rect x="36" y="90" width="26" height="80" fill="#8b5cf6" rx="4"/>
+      <rect x="72" y="40" width="26" height="130" fill="#ec4899" rx="4"/>
+      <rect x="108" y="110" width="26" height="60" fill="#10b981" rx="4"/>
+      <rect x="144" y="20" width="26" height="150" fill="#ef4444" rx="4"/>
+      <rect x="180" y="80" width="26" height="90" fill="#f59e0b" rx="4"/>
+      <rect x="216" y="50" width="26" height="120" fill="#06b6d4" rx="4"/>
+      <rect x="252" y="130" width="26" height="40" fill="#6366f1" rx="4"/>
+      <rect x="288" y="70" width="26" height="100" fill="#14b8a6" rx="4"/>
+      <rect x="324" y="30" width="26" height="140" fill="#f43f5e" rx="4"/>
+      <rect x="360" y="100" width="26" height="70" fill="#84cc16" rx="4"/>
+      <rect x="396" y="45" width="26" height="125" fill="#eab308" rx="4"/>
+    </g>
+
+    <!-- Key Topics Card -->
+    <rect x="25" y="195" width="450" height="125" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(239,68,68,0.2)"/>
+    <text x="250" y="225" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#f87171" text-anchor="middle">Asymptotic Notations • Divide &amp; Conquer • Dynamic Programming</text>
+    <text x="250" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#60a5fa" text-anchor="middle">Graph Algorithms: Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal, Prim</text>
+    <text x="250" y="285" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">NP-Completeness (Cook's Theorem) • Red-Black Trees • String Matching</text>
+    <text x="250" y="310" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#4ade80" text-anchor="middle">Amortized Analysis • Greedy Method • Branch &amp; Bound</text>
+  </g>
+
+  <!-- Bottom Publisher Seal -->
+  <rect x="40" y="670" width="535" height="80" rx="16" fill="url(#redBanner)" filter="url(#shadow)"/>
+  <text x="307" y="705" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">THE MIT PRESS</text>
+  <text x="307" y="732" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#fee2e2" text-anchor="middle">Benchmark Standard for Design &amp; Analysis of Algorithms (DAA)</text>
+</svg>

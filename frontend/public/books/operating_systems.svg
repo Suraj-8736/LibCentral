@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="osbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#082f49"/>
+      <stop offset="50%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="osaccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#osbg)"/>
+  <rect width="20" height="800" fill="black" opacity="0.25"/>
+
+  <rect x="0" y="0" width="600" height="55" fill="#0284c7"/>
+  <text x="300" y="35" font-family="sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">WILEY INTERNATIONAL EDITION</text>
+
+  <text x="300" y="135" font-family="sans-serif" font-size="36" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">OPERATING SYSTEM</text>
+  <text x="300" y="175" font-family="sans-serif" font-size="30" font-weight="900" fill="#7dd3fc" text-anchor="middle" letter-spacing="2">CONCEPTS</text>
+  <text x="300" y="205" font-family="sans-serif" font-size="15" fill="#e0f2fe" text-anchor="middle">Tenth Edition • The Dinosaur Book</text>
+
+  <!-- Authors Box -->
+  <rect x="50" y="230" width="500" height="75" rx="16" fill="rgba(0,0,0,0.3)" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="300" y="260" font-family="sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle">ABRAHAM SILBERSCHATZ</text>
+  <text x="300" y="285" font-family="sans-serif" font-size="15" font-weight="bold" fill="#bae6fd" text-anchor="middle">PETER B. GALVIN • GREG GAGNE</text>
+
+  <!-- Process / CPU / Memory Diagram -->
+  <g transform="translate(70, 335)">
+    <rect x="0" y="0" width="460" height="300" rx="16" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.2)"/>
+    
+    <!-- Process States -->
+    <rect x="25" y="30" width="90" height="45" rx="8" fill="#0284c7" stroke="#fff" stroke-width="1.5"/>
+    <text x="70" y="57" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">NEW</text>
+
+    <line x1="115" y1="52" x2="175" y2="52" stroke="#38bdf8" stroke-width="2"/>
+    <polygon points="175,52 165,47 165,57" fill="#38bdf8"/>
+
+    <rect x="175" y="30" width="100" height="45" rx="8" fill="#10b981" stroke="#fff" stroke-width="1.5"/>
+    <text x="225" y="57" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">READY</text>
+
+    <line x1="275" y1="52" x2="335" y2="52" stroke="#38bdf8" stroke-width="2"/>
+    <polygon points="335,52 325,47 325,57" fill="#38bdf8"/>
+
+    <rect x="335" y="30" width="100" height="45" rx="8" fill="#f59e0b" stroke="#fff" stroke-width="1.5"/>
+    <text x="385" y="57" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">RUNNING</text>
+
+    <rect x="175" y="120" width="100" height="45" rx="8" fill="#ef4444" stroke="#fff" stroke-width="1.5"/>
+    <text x="225" y="147" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">WAITING</text>
+
+    <rect x="335" y="120" width="100" height="45" rx="8" fill="#64748b" stroke="#fff" stroke-width="1.5"/>
+    <text x="385" y="147" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">TERMINATED</text>
+
+    <!-- OS Modules Tags -->
+    <rect x="25" y="190" width="410" height="85" rx="10" fill="rgba(255,255,255,0.06)"/>
+    <text x="230" y="218" font-family="sans-serif" font-size="13" font-weight="bold" fill="#38bdf8" text-anchor="middle">Threads • CPU Scheduling • Deadlocks • Virtual Memory</text>
+    <text x="230" y="248" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">File Systems • I/O Management • Linux &amp; Windows Architecture</text>
+  </g>
+
+  <rect x="40" y="670" width="520" height="75" rx="14" fill="#0284c7"/>
+  <text x="300" y="703" font-family="sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">WILEY PUBLISHING</text>
+  <text x="300" y="728" font-family="sans-serif" font-size="12" fill="#e0f2fe" text-anchor="middle">World's #1 Textbook for Operating Systems</text>
+</svg>

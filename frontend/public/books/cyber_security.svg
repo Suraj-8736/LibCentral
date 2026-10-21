@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="csbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="cslock" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#csbg)"/>
+  <rect width="20" height="800" fill="black" opacity="0.3"/>
+
+  <rect x="0" y="0" width="600" height="55" fill="#b91c1c"/>
+  <text x="300" y="35" font-family="sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">WILEY INDIA ACADEMIC</text>
+
+  <text x="300" y="135" font-family="sans-serif" font-size="42" font-weight="900" fill="#ef4444" text-anchor="middle" letter-spacing="3">CYBER SECURITY</text>
+  <text x="300" y="175" font-family="sans-serif" font-size="17" font-weight="bold" fill="#fca5a5" text-anchor="middle">Understanding Cyber Crimes, Computer Forensics &amp; Legal Laws</text>
+  <text x="300" y="205" font-family="sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">As per latest Indian IT Act &amp; University Syllabus</text>
+
+  <!-- Author -->
+  <rect x="90" y="230" width="420" height="50" rx="14" fill="url(#cslock)"/>
+  <text x="300" y="262" font-family="sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">NINA GODBOLE &amp; SUNIT BELAPURE</text>
+
+  <!-- Cyber Shield & Matrix Graphic -->
+  <g transform="translate(70, 310)">
+    <rect x="0" y="0" width="460" height="330" rx="16" fill="#030712" stroke="#ef4444" stroke-width="1.5"/>
+    
+    <!-- Shield Graphic -->
+    <path d="M 230 30 L 330 65 C 330 160 230 220 230 220 C 230 220 130 160 130 65 Z" fill="rgba(239,68,68,0.15)" stroke="#ef4444" stroke-width="3"/>
+    <!-- Keyhole / Lock in shield -->
+    <circle cx="230" cy="110" r="20" fill="#f87171"/>
+    <rect x="223" y="110" width="14" height="35" fill="#f87171"/>
+
+    <rect x="25" y="240" width="410" height="70" rx="10" fill="rgba(255,255,255,0.05)"/>
+    <text x="230" y="268" font-family="sans-serif" font-size="13" font-weight="bold" fill="#f87171" text-anchor="middle">Cryptography • Network Security • Ethical Hacking • IT Act 2000</text>
+    <text x="230" y="295" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">Cloud Security • Malware Analysis • Digital Forensics</text>
+  </g>
+
+  <rect x="40" y="670" width="520" height="75" rx="14" fill="#b91c1c"/>
+  <text x="300" y="703" font-family="sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">WILEY INDIA PUBLISHING</text>
+  <text x="300" y="728" font-family="sans-serif" font-size="12" fill="#fee2e2" text-anchor="middle">Essential Security Textbook for Engineering &amp; IT Professionals</text>
+</svg>

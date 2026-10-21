@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="tcbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#3730a3"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#tcbg)"/>
+  <rect width="20" height="800" fill="black" opacity="0.25"/>
+
+  <rect x="0" y="0" width="600" height="55" fill="#4338ca"/>
+  <text x="300" y="35" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">OXFORD UNIVERSITY PRESS</text>
+
+  <text x="300" y="135" font-family="sans-serif" font-size="36" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">TECHNICAL</text>
+  <text x="300" y="175" font-family="sans-serif" font-size="32" font-weight="900" fill="#a5b4fc" text-anchor="middle">COMMUNICATION</text>
+  <text x="300" y="205" font-family="sans-serif" font-size="16" fill="#e0e7ff" text-anchor="middle">Principles and Practice • Third Edition</text>
+
+  <!-- Author -->
+  <rect x="80" y="235" width="440" height="55" rx="16" fill="rgba(0,0,0,0.3)" stroke="#818cf8" stroke-width="1.5"/>
+  <text x="300" y="268" font-family="sans-serif" font-size="18" font-weight="bold" fill="#fde047" text-anchor="middle">MEENAKSHI RAMAN &amp; SANGEETA SHARMA</text>
+
+  <!-- Communication / Report Icons & Visuals -->
+  <g transform="translate(80, 320)">
+    <rect x="0" y="0" width="440" height="320" rx="16" fill="rgba(0,0,0,0.4)" stroke="#818cf8" stroke-width="1.5"/>
+    
+    <rect x="30" y="30" width="170" height="110" rx="10" fill="rgba(99,102,241,0.2)" stroke="#818cf8" stroke-width="1.5"/>
+    <text x="115" y="65" font-family="sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">REPORT WRITING</text>
+    <text x="115" y="90" font-family="sans-serif" font-size="11" fill="#c7d2fe" text-anchor="middle">Proposals • Research</text>
+    <text x="115" y="110" font-family="sans-serif" font-size="11" fill="#c7d2fe" text-anchor="middle">Technical Manuals</text>
+
+    <rect x="240" y="30" width="170" height="110" rx="10" fill="rgba(236,72,153,0.2)" stroke="#f472b6" stroke-width="1.5"/>
+    <text x="325" y="65" font-family="sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">PRESENTATION</text>
+    <text x="325" y="90" font-family="sans-serif" font-size="11" fill="#fbcfe8" text-anchor="middle">Slide Decks • Oratory</text>
+    <text x="325" y="110" font-family="sans-serif" font-size="11" fill="#fbcfe8" text-anchor="middle">Audience Engagement</text>
+
+    <rect x="30" y="160" width="170" height="110" rx="10" fill="rgba(34,197,94,0.2)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="115" y="195" font-family="sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">INTERVIEWS &amp; GD</text>
+    <text x="115" y="220" font-family="sans-serif" font-size="11" fill="#bbf7d0" text-anchor="middle">Corporate Readiness</text>
+    <text x="115" y="240" font-family="sans-serif" font-size="11" fill="#bbf7d0" text-anchor="middle">Body Language</text>
+
+    <rect x="240" y="160" width="170" height="110" rx="10" fill="rgba(234,179,8,0.2)" stroke="#facc15" stroke-width="1.5"/>
+    <text x="325" y="195" font-family="sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">EMAIL &amp; LETTERS</text>
+    <text x="325" y="220" font-family="sans-serif" font-size="11" fill="#fef08a" text-anchor="middle">Professional Memos</text>
+    <text x="325" y="240" font-family="sans-serif" font-size="11" fill="#fef08a" text-anchor="middle">Meeting Minutes</text>
+  </g>
+
+  <rect x="40" y="670" width="520" height="75" rx="14" fill="#4338ca"/>
+  <text x="300" y="703" font-family="sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">OXFORD UNIVERSITY PRESS</text>
+  <text x="300" y="728" font-family="sans-serif" font-size="12" fill="#c7d2fe" text-anchor="middle">Prescribed Curriculum Reference for Engineering Scholars</text>
+</svg>

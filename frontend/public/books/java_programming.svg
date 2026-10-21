@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="javabg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="javared" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#javabg)"/>
+  <rect width="20" height="800" fill="black" opacity="0.25"/>
+
+  <rect x="0" y="0" width="600" height="55" fill="#dc2626"/>
+  <text x="300" y="35" font-family="sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">ORACLE PRESS • McGRAW HILL</text>
+
+  <text x="300" y="130" font-family="sans-serif" font-size="32" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">OBJECT-ORIENTED</text>
+  <text x="300" y="168" font-family="sans-serif" font-size="36" font-weight="900" fill="#fb7185" text-anchor="middle" letter-spacing="2">PROGRAMMING WITH JAVA</text>
+  <text x="300" y="200" font-family="sans-serif" font-size="15" fill="#fecdd3" text-anchor="middle">Java: The Complete Reference • Twelfth Edition (Java SE 17+)</text>
+
+  <!-- Author -->
+  <rect x="130" y="225" width="340" height="44" rx="22" fill="url(#javared)"/>
+  <text x="300" y="253" font-family="sans-serif" font-size="19" font-weight="900" fill="#ffffff" text-anchor="middle">HERBERT SCHILDT</text>
+
+  <!-- Java Coffee Cup & OOPs Diagram -->
+  <g transform="translate(70, 290)">
+    <rect x="0" y="0" width="460" height="355" rx="16" fill="rgba(0,0,0,0.45)" stroke="#fb7185" stroke-width="1.5"/>
+    
+    <!-- Java Cup Icon -->
+    <path d="M 190 70 C 180 50 190 30 180 15 M 210 70 C 200 50 210 30 200 15 M 230 70 C 220 50 230 30 220 15" fill="none" stroke="#f43f5e" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 160 70 L 260 70 L 250 140 C 250 160 170 160 170 140 Z" fill="#e11d48" stroke="#fff" stroke-width="2"/>
+    <path d="M 255 85 C 280 85 280 120 250 125" fill="none" stroke="#e11d48" stroke-width="5"/>
+    <ellipse cx="210" cy="165" rx="60" ry="8" fill="#be123c"/>
+
+    <!-- Core OOPs Concepts Boxes -->
+    <rect x="25" y="190" width="190" height="60" rx="8" fill="rgba(244,63,94,0.15)" stroke="#f43f5e" stroke-width="1.5"/>
+    <text x="120" y="215" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fda4af" text-anchor="middle">INHERITANCE</text>
+    <text x="120" y="235" font-family="monospace" font-size="11" fill="#fff" text-anchor="middle">class B extends A</text>
+
+    <rect x="245" y="190" width="190" height="60" rx="8" fill="rgba(56,189,248,0.15)" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="340" y="215" font-family="sans-serif" font-size="13" font-weight="bold" fill="#7dd3fc" text-anchor="middle">POLYMORPHISM</text>
+    <text x="340" y="235" font-family="monospace" font-size="11" fill="#fff" text-anchor="middle">@Override methods</text>
+
+    <rect x="25" y="265" width="190" height="60" rx="8" fill="rgba(250,204,21,0.15)" stroke="#facc15" stroke-width="1.5"/>
+    <text x="120" y="290" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">ENCAPSULATION</text>
+    <text x="120" y="310" font-family="monospace" font-size="11" fill="#fff" text-anchor="middle">private data + getters</text>
+
+    <rect x="245" y="265" width="190" height="60" rx="8" fill="rgba(74,222,128,0.15)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="340" y="290" font-family="sans-serif" font-size="13" font-weight="bold" fill="#86efac" text-anchor="middle">ABSTRACTION</text>
+    <text x="340" y="310" font-family="monospace" font-size="11" fill="#fff" text-anchor="middle">abstract &amp; interface</text>
+  </g>
+
+  <rect x="40" y="670" width="520" height="75" rx="14" fill="#dc2626"/>
+  <text x="300" y="703" font-family="sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">McGRAW HILL &amp; ORACLE PRESS</text>
+  <text x="300" y="728" font-family="sans-serif" font-size="12" fill="#fecdd3" text-anchor="middle">Multithreading • Generics • Lambda Expressions • Collections • JavaFX</text>
+</svg>

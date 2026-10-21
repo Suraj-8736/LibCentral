@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="eitkbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="45%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="emeraldBanner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Cover Background -->
+  <rect width="600" height="800" fill="url(#eitkbg)"/>
+  
+  <!-- Spine Texture -->
+  <rect width="22" height="800" fill="#000000" opacity="0.35"/>
+  <line x1="22" y1="0" x2="22" y2="800" stroke="#34d399" stroke-width="1" opacity="0.4"/>
+
+  <!-- Top Publisher Banner -->
+  <rect x="0" y="0" width="600" height="54" fill="url(#emeraldBanner)"/>
+  <text x="310" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2.5">PHI LEARNING • UNIVERSITY PRESS</text>
+
+  <!-- Year / Semester Tag -->
+  <g transform="translate(420, 70)">
+    <rect x="0" y="0" width="140" height="28" rx="14" fill="#047857" stroke="#6ee7b7" stroke-width="1"/>
+    <text x="70" y="19" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">3RD YEAR CORE</text>
+  </g>
+
+  <!-- Main Title Block -->
+  <text x="310" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">EMERGING INFORMATION</text>
+  <text x="310" y="165" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="900" fill="#34d399" text-anchor="middle" letter-spacing="1.5">TECHNOLOGY &amp; KNOWLEDGE</text>
+  <text x="310" y="196" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#a7f3d0" text-anchor="middle">EITK • AI, Cloud, IoT, Quantum &amp; Blockchain Systems</text>
+
+  <!-- Authors Card -->
+  <rect x="60" y="220" width="500" height="60" rx="16" fill="rgba(15, 23, 42, 0.85)" stroke="#10b981" stroke-width="1.8" filter="url(#shadow)"/>
+  <text x="310" y="246" font-family="system-ui, sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">V. RAJARAMAN • DR. SUSHILA MADAN</text>
+  <text x="310" y="268" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">&amp; AICTE TECHNICAL FACULTY BOARD</text>
+
+  <!-- Central Graphic Showcase (Interconnected Future Tech Nodes) -->
+  <g transform="translate(60, 300)">
+    <rect x="0" y="0" width="500" height="348" rx="18" fill="rgba(15, 23, 42, 0.9)" stroke="#059669" stroke-width="1.5"/>
+
+    <!-- Interconnected Tech Nodes Grid -->
+    <g transform="translate(30, 20)">
+      <rect x="0" y="0" width="130" height="36" rx="8" fill="#047857"/><text x="65" y="23" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">AI &amp; GEN-AI</text>
+      <rect x="150" y="0" width="135" height="36" rx="8" fill="#0284c7"/><text x="217" y="23" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">CLOUD &amp; EDGE</text>
+      <rect x="305" y="0" width="135" height="36" rx="8" fill="#d97706"/><text x="372" y="23" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">SMART IOT SENSORS</text>
+      
+      <rect x="65" y="50" width="145" height="36" rx="8" fill="#7c3aed"/><text x="137" y="73" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">BLOCKCHAIN / WEB3</text>
+      <rect x="230" y="50" width="145" height="36" rx="8" fill="#e11d48"/><text x="302" y="73" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">QUANTUM COMPUTING</text>
+    </g>
+
+    <!-- Key Topics Card -->
+    <rect x="25" y="125" width="450" height="200" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(52,211,153,0.2)"/>
+    <text x="250" y="155" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">Artificial Intelligence &amp; Autonomous Cognitive Systems</text>
+    <text x="250" y="185" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#34d399" text-anchor="middle">Cloud Virtualization Models (IaaS, PaaS, SaaS) &amp; Edge Computing</text>
+    <text x="250" y="215" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#38bdf8" text-anchor="middle">Internet of Things (IoT) Protocols (MQTT, CoAP) &amp; Industrial 4.0</text>
+    <text x="250" y="245" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#f472b6" text-anchor="middle">Blockchain Distributed Ledgers • Smart Contracts &amp; Consensus (PoW/PoS)</text>
+    <text x="250" y="275" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#fbbf24" text-anchor="middle">Quantum Qubits &amp; Quantum Gates • Knowledge Management Systems</text>
+    <text x="250" y="305" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#a7f3d0" text-anchor="middle">Prescribed Curriculum for Emerging Technologies in Computer Science</text>
+  </g>
+
+  <!-- Bottom Publisher Seal -->
+  <rect x="40" y="670" width="535" height="80" rx="16" fill="url(#emeraldBanner)" filter="url(#shadow)"/>
+  <text x="307" y="705" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">PHI LEARNING PVT. LTD.</text>
+  <text x="307" y="732" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#d1fae5" text-anchor="middle">Comprehensive Text on Emerging Information Technology &amp; Knowledge</text>
+</svg>

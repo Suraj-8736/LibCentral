@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="aibg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="45%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="aiBanner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Cover Background -->
+  <rect width="600" height="800" fill="url(#aibg)"/>
+  
+  <!-- Spine Texture -->
+  <rect width="22" height="800" fill="#000000" opacity="0.35"/>
+  <line x1="22" y1="0" x2="22" y2="800" stroke="#34d399" stroke-width="1" opacity="0.4"/>
+
+  <!-- Top Publisher Banner -->
+  <rect x="0" y="0" width="600" height="54" fill="url(#aiBanner)"/>
+  <text x="310" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2.5">PEARSON HIGHER EDUCATION</text>
+
+  <!-- Year / Semester Tag -->
+  <g transform="translate(420, 70)">
+    <rect x="0" y="0" width="140" height="28" rx="14" fill="#047857" stroke="#6ee7b7" stroke-width="1"/>
+    <text x="70" y="19" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">4TH YEAR CORE</text>
+  </g>
+
+  <!-- Main Title Block -->
+  <text x="310" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">ARTIFICIAL INTELLIGENCE (AI)</text>
+  <text x="310" y="168" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#6ee7b7" text-anchor="middle" letter-spacing="1.5">A MODERN APPROACH (4TH EDITION)</text>
+  <text x="310" y="198" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#a7f3d0" text-anchor="middle">Intelligent Agents, Search, Knowledge &amp; Probabilistic Reasoning</text>
+
+  <!-- Authors Card -->
+  <rect x="60" y="222" width="500" height="58" rx="16" fill="rgba(15, 23, 42, 0.85)" stroke="#34d399" stroke-width="1.8" filter="url(#shadow)"/>
+  <text x="310" y="258" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#fde047" text-anchor="middle" letter-spacing="1">STUART RUSSELL &amp; PETER NORVIG</text>
+
+  <!-- Central Graphic Showcase (AI Neural & Search Node Diagram) -->
+  <g transform="translate(60, 302)">
+    <rect x="0" y="0" width="500" height="345" rx="18" fill="rgba(15, 23, 42, 0.9)" stroke="#059669" stroke-width="1.5"/>
+
+    <!-- Neural Cortex / Search Graph Nodes -->
+    <g transform="translate(130, 20)">
+      <circle cx="40" cy="50" r="18" fill="#10b981" stroke="#fff" stroke-width="2"/>
+      <text x="40" y="55" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">A*</text>
+
+      <circle cx="120" cy="25" r="20" fill="#3b82f6" stroke="#fff" stroke-width="2"/>
+      <text x="120" y="30" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">Agent</text>
+
+      <circle cx="200" cy="50" r="18" fill="#ec4899" stroke="#fff" stroke-width="2"/>
+      <text x="200" y="55" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">Logic</text>
+
+      <circle cx="80" cy="100" r="20" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+      <text x="80" y="105" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">Search</text>
+
+      <circle cx="160" cy="100" r="20" fill="#a855f7" stroke="#fff" stroke-width="2"/>
+      <text x="160" y="105" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">RL</text>
+
+      <line x1="40" y1="50" x2="120" y2="25" stroke="#6ee7b7" stroke-width="2"/>
+      <line x1="120" y1="25" x2="200" y2="50" stroke="#6ee7b7" stroke-width="2"/>
+      <line x1="40" y1="50" x2="80" y2="100" stroke="#6ee7b7" stroke-width="2"/>
+      <line x1="200" y1="50" x2="160" y2="100" stroke="#6ee7b7" stroke-width="2"/>
+      <line x1="80" y1="100" x2="160" y2="100" stroke="#6ee7b7" stroke-width="2"/>
+      <line x1="120" y1="25" x2="80" y2="100" stroke="#6ee7b7" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <line x1="120" y1="25" x2="160" y2="100" stroke="#6ee7b7" stroke-width="1.5" stroke-dasharray="4 4"/>
+    </g>
+
+    <!-- Key Topics Card -->
+    <rect x="25" y="150" width="450" height="175" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(52,211,153,0.2)"/>
+    <text x="250" y="180" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#fde047" text-anchor="middle">Intelligent Agents: Structure, Environment Types &amp; Rationality</text>
+    <text x="250" y="210" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Uninformed &amp; Heuristic Search: A*, Greedy Best-First, Hill Climbing</text>
+    <text x="250" y="240" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#38bdf8" text-anchor="middle">Adversarial Search: Minimax Algorithm &amp; Alpha-Beta Pruning in Games</text>
+    <text x="250" y="270" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#f472b6" text-anchor="middle">Knowledge Representation • First-Order Logic • Inference Rules &amp; Resolution</text>
+    <text x="250" y="300" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#a7f3d0" text-anchor="middle">Probabilistic Reasoning (Bayesian Networks) • Natural Language Processing</text>
+  </g>
+
+  <!-- Bottom Publisher Seal -->
+  <rect x="40" y="670" width="535" height="80" rx="16" fill="url(#aiBanner)" filter="url(#shadow)"/>
+  <text x="307" y="705" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">PEARSON EDUCATION</text>
+  <text x="307" y="732" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#d1fae5" text-anchor="middle">The World's Undisputed #1 Global Benchmark in Artificial Intelligence</text>
+</svg>

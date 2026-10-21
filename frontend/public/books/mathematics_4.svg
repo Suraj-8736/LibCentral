@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="m4bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a0404"/>
+      <stop offset="50%" stop-color="#780016"/>
+      <stop offset="100%" stop-color="#2e020a"/>
+    </linearGradient>
+    <linearGradient id="m4gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#m4bg)"/>
+  <!-- Spine shadow -->
+  <rect width="20" height="800" fill="black" opacity="0.3"/>
+  <line x1="22" y1="0" x2="22" y2="800" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <!-- Outer gold border frame -->
+  <rect x="30" y="30" width="540" height="740" fill="none" stroke="url(#m4gold)" stroke-width="3"/>
+  <rect x="36" y="36" width="528" height="728" fill="none" stroke="rgba(245,158,11,0.4)" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Header banner -->
+  <rect x="70" y="60" width="460" height="36" fill="url(#m4gold)" rx="6"/>
+  <text x="300" y="84" font-family="serif" font-size="14" font-weight="bold" fill="#450a0a" text-anchor="middle" letter-spacing="2">PRESCRIBED 2ND YEAR B.TECH TEXTBOOK</text>
+
+  <!-- Title -->
+  <text x="300" y="160" font-family="serif" font-size="38" font-weight="900" fill="url(#m4gold)" text-anchor="middle" letter-spacing="2">ENGINEERING</text>
+  <text x="300" y="215" font-family="serif" font-size="42" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="3">MATHEMATICS - IV</text>
+  <text x="300" y="255" font-family="sans-serif" font-size="15" fill="#fef08a" text-anchor="middle">(Complex Variables, Probability &amp; Statistics, Sampling)</text>
+
+  <!-- Author Ribbon -->
+  <rect x="110" y="285" width="380" height="52" rx="8" fill="#1e0207" stroke="url(#m4gold)" stroke-width="2"/>
+  <text x="300" y="318" font-family="serif" font-size="24" font-weight="bold" fill="url(#m4gold)" text-anchor="middle">Dr. B. S. GREWAL</text>
+
+  <!-- Math Graph Diagrams & Formulas -->
+  <g transform="translate(80, 360)">
+    <rect x="0" y="0" width="440" height="240" rx="12" fill="rgba(0,0,0,0.35)" stroke="rgba(245,158,11,0.3)"/>
+    
+    <!-- Normal Distribution Curve -->
+    <path d="M 40 180 Q 140 180 180 80 Q 220 20 260 80 Q 300 180 400 180" fill="rgba(245,158,11,0.15)" stroke="#fbbf24" stroke-width="3"/>
+    <line x1="220" y1="20" x2="220" y2="190" stroke="#fef08a" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="220" y="210" font-family="serif" font-size="14" fill="#fef08a" text-anchor="middle">μ (Mean)</text>
+
+    <!-- Formula tags -->
+    <text x="100" y="60" font-family="serif" font-size="16" fill="#ffffff">f(z) = u(x,y) + i v(x,y)</text>
+    <text x="290" y="60" font-family="serif" font-size="16" fill="#ffffff">P(X=k) = (λ^k e^-λ)/k!</text>
+    <text x="80" y="130" font-family="serif" font-size="15" fill="#fef08a">∂u/∂x = ∂v/∂y, ∂u/∂y = -∂v/∂x</text>
+    <text x="300" y="130" font-family="serif" font-size="15" fill="#fef08a">χ² = Σ (O - E)² / E</text>
+  </g>
+
+  <!-- Publisher Footer -->
+  <rect x="30" y="680" width="540" height="90" fill="#1e0207"/>
+  <text x="300" y="720" font-family="serif" font-size="22" font-weight="bold" fill="url(#m4gold)" text-anchor="middle" letter-spacing="2">KHANNA PUBLISHERS</text>
+  <text x="300" y="748" font-family="sans-serif" font-size="12" fill="#cbd5e1" text-anchor="middle">45th Revised &amp; Enlarged Edition • Complete Solutions</text>
+</svg>
