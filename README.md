@@ -204,8 +204,8 @@ library-management-system/
 
 ## 👨‍💻 Project & Developer Details
 - **Project**: LibCentral — Academic Library Management System
-- **Lead Developer**: Saurabh Sahu
-- **Email**: sahu720p@gmail.com
+- **Lead Developer**: Saurabh Sahu, Suraj Mishra, Suraj Gupta and Sumit Kumar Gupta
+- **Email**: sahu720p@gmail.com And surajmishra873681@gmail.com
 - **Repository**: Full-Stack MERN (React, Node.js, Express.js, MongoDB)
 
 ---
